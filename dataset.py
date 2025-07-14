@@ -13,8 +13,6 @@ dic={"A":np.random.randint(1,100,size=60),
      "J":np.random.randint(1,1340,size=60),
      "K":np.random.randint(1,450,size=60),
      "L":np.random.randint(1,350,size=60)
-
-
      }
 
 df=pd.DataFrame(dic)
