@@ -29,3 +29,11 @@ print()
 
 print("shape of dataset",dataset.shape)
 print()
+
+# ---------------------used for delete all the null value in the dataset ++++++++++++++
+
+print(dataset.dropna(inplace=True))
+print()
+
+print(dataset.isnull().sum())
+print()
