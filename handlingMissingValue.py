@@ -30,7 +30,7 @@ print()
 print("shape of dataset",dataset.shape)
 print()
 
-# ---------------------used for delete all the null value in the dataset ++++++++++++++
+# ---------------------used for delete all the null value(rows) in the dataset ++++++++++++++
 
 print(dataset.dropna(inplace=True))
 print()
