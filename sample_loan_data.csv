@@ -1,0 +1,21 @@
+LoanID,Gender,Married,Education,LoanAmount,ApplicantIncome
+LN1001,Male,Yes,Graduate,100,
+LN1002,Female,No,Not Graduate,110,
+LN1003,Male,Yes,Graduate,120,
+LN1004,Female,No,,130,3600
+LN1005,Male,Yes,,140,3800
+LN1006,,No,,150,4000
+LN1007,,Yes,,160,4200
+LN1008,,No,,170,4400
+LN1009,,Yes,Graduate,180,4600
+LN1010,,,Not Graduate,190,4800
+LN1011,Male,,Graduate,200,5000
+LN1012,Female,,Not Graduate,210,5200
+LN1013,Male,,Graduate,220,5400
+LN1014,Female,No,Not Graduate,230,5600
+LN1015,Male,Yes,Graduate,240,5800
+LN1016,Female,No,Not Graduate,250,6000
+LN1017,Male,Yes,Graduate,260,6200
+LN1018,Female,No,Not Graduate,270,6400
+LN1019,Male,Yes,Graduate,280,6600
+LN1020,Female,No,Not Graduate,290,6800
