@@ -7,10 +7,6 @@ df=pd.read_csv("home_price.csv")
 print("Home price : \n",df)
 
 print()
-plt.xlabel("area")
-plt.ylabel("price")
-plt.scatter(df.area,df.price,color="red",marker="+")
-plt.show()
 
 # create a object for reg. and predict
 reg=linear_model.LinearRegression()
@@ -20,6 +16,28 @@ reg.fit(df[['area']],df.price)
 
 predicted_price=reg.predict([[3300]])
 print("predicted price of 3300 sqft: ",predicted_price)
+
+
+# # gradient /slop(m)
+# print("Gradient :",reg.coef_)
+# print()
+# # intercept(b)
+# print("y-intercept :",reg.intercept_)
+
+# linear reg :y=mx+b
+# print(135.78767123*3300+180616.43835616432)
+
+
+plt.xlabel("area")
+plt.ylabel("price")
+plt.scatter(df.area,df.price,color="red",marker="+")
+plt.plot(df.area,reg.predict(df[['area']]),color='blue')
+plt.show()
+
+
+
+
+
 
 
 
