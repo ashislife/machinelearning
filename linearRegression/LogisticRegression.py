@@ -14,7 +14,7 @@ plt.ylabel("bought_insurance")
 plt.title("INSURANCE GRAPH ")
 plt.show()
 
-# train,test and split
+#test and split
 from sklearn.model_selection import train_test_split
 X_train,X_test,Y_train,Y_test=train_test_split(X,Y,test_size=0.1, random_state=10, stratify=Y)
 
@@ -23,7 +23,7 @@ print("Train data is\n ",X_test)
 
 print()
 
-# train
+# train model
 from sklearn.linear_model import LogisticRegression
 model=LogisticRegression()
 
