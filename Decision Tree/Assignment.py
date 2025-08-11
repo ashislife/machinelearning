@@ -44,4 +44,5 @@ model=tree.DecisionTreeClassifier()
 
 model.fit(new_input,target)
 
-print()
+# find accuracy
+print(model.score(new_input,target))
